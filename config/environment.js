@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'rpg-mvp-web',
+    podModulePrefix: 'rpg-mvp-web/modules',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
