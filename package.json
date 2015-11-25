@@ -34,8 +34,10 @@
     "ember-cli-sass": "^5.1.0",
     "ember-cli-sri": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
-    "ember-data": "2.1.0",
+    "ember-data": "2.2.0",
     "ember-disable-proxy-controllers": "^1.0.1",
-    "ember-export-application-global": "^1.0.4"
+    "ember-export-application-global": "^1.0.4",
+    "gulp": "^3.9.0",
+    "torii": "^0.6.1"
   }
 }

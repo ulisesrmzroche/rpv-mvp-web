@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-block">
+      <h4 class="card-title">Sign Up</h4>
+
+      <p class="card-text">
+        {{input value=user.email placeholder='Email'}}
+        {{input value=user.password type='password' placeholder='Password'}}
+      </p>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        {{#each providers as |provider|}}
+          <button type='button' class='btn btn-secondary' {{action 'signupWith' provider}}>
+            {{provider.name}}
+          </button>
+        {{/each}}
+      </div>
+
+    </div>
+  </div>
